@@ -1,10 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" height="259.8076" stroke-opacity="1" viewBox="0 0 300 260" font-size="1" width="300.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" height="266.5064" stroke-opacity="1" viewBox="0 0 300 267" font-size="1" width="300.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
   <defs>
   </defs>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="1.1167258309225199" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 225.0000,259.8076 l 75.0000,-129.9038 l -75.0000,-129.9038 l -150.0000,-0.0000 l -75.0000,129.9038 l 75.0000,129.9038 Z"/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(0,128,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 112.5000,241.5064 c 0.0000,-13.8071 -11.1929,-25.0000 -25.0000 -25.0000c -13.8071,-0.0000 -25.0000,11.1929 -25.0000 25.0000c -0.0000,13.8071 11.1929,25.0000 25.0000 25.0000c 13.8071,0.0000 25.0000,-11.1929 25.0000 -25.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="25.000000000000007px" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(255,255,255)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="middle" transform="matrix(1.0000,0.0000,0.0000,1.0000,87.5000,241.5064)" stroke="none" text-anchor="middle">6
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(0,128,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 50.0000,133.2532 c 0.0000,-13.8071 -11.1929,-25.0000 -25.0000 -25.0000c -13.8071,-0.0000 -25.0000,11.1929 -25.0000 25.0000c -0.0000,13.8071 11.1929,25.0000 25.0000 25.0000c 13.8071,0.0000 25.0000,-11.1929 25.0000 -25.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="25.000000000000007px" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(255,255,255)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="middle" transform="matrix(1.0000,0.0000,0.0000,1.0000,25.0000,133.2532)" stroke="none" text-anchor="middle">5
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(0,128,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 112.5000,25.0000 c 0.0000,-13.8071 -11.1929,-25.0000 -25.0000 -25.0000c -13.8071,-0.0000 -25.0000,11.1929 -25.0000 25.0000c -0.0000,13.8071 11.1929,25.0000 25.0000 25.0000c 13.8071,0.0000 25.0000,-11.1929 25.0000 -25.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="25.000000000000007px" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(255,255,255)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="middle" transform="matrix(1.0000,0.0000,0.0000,1.0000,87.5000,25.0000)" stroke="none" text-anchor="middle">4
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(0,128,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 237.5000,25.0000 c 0.0000,-13.8071 -11.1929,-25.0000 -25.0000 -25.0000c -13.8071,-0.0000 -25.0000,11.1929 -25.0000 25.0000c -0.0000,13.8071 11.1929,25.0000 25.0000 25.0000c 13.8071,0.0000 25.0000,-11.1929 25.0000 -25.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="25.000000000000007px" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(255,255,255)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="middle" transform="matrix(1.0000,0.0000,0.0000,1.0000,212.5000,25.0000)" stroke="none" text-anchor="middle">3
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(0,128,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 300.0000,133.2532 c 0.0000,-13.8071 -11.1929,-25.0000 -25.0000 -25.0000c -13.8071,-0.0000 -25.0000,11.1929 -25.0000 25.0000c -0.0000,13.8071 11.1929,25.0000 25.0000 25.0000c 13.8071,0.0000 25.0000,-11.1929 25.0000 -25.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="25.000000000000007px" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(255,255,255)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="middle" transform="matrix(1.0000,0.0000,0.0000,1.0000,275.0000,133.2532)" stroke="none" text-anchor="middle">2
+    </text>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(0,128,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 237.5000,241.5064 c 0.0000,-13.8071 -11.1929,-25.0000 -25.0000 -25.0000c -13.8071,-0.0000 -25.0000,11.1929 -25.0000 25.0000c -0.0000,13.8071 11.1929,25.0000 25.0000 25.0000c 13.8071,0.0000 25.0000,-11.1929 25.0000 -25.0000Z"/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" font-size="25.000000000000007px" stroke="rgb(0,0,0)" stroke-width="1.1310307177708867" fill="rgb(255,255,255)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <text dominant-baseline="middle" transform="matrix(1.0000,0.0000,0.0000,1.0000,212.5000,241.5064)" stroke="none" text-anchor="middle">1
+    </text>
   </g>
 </svg>
