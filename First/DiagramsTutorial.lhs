@@ -6,10 +6,12 @@
 > import Diagrams.Backend.SVG.CmdLine
 > 
 > myCircle :: Diagram B
-> myCircle = circle 1 # fc blue
->                     # lw veryThick
->                     # lc purple
->                     # dashingG [0.2, 0.05] 0
+> myCircle = circle 1 # fc red
+>                     # lw none
+                      |||
+                      circle 1 
+                      # fc green
+                      # lw none
 > 
 > main = mainWith myCircle
 
