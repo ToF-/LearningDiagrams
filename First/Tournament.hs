@@ -16,4 +16,4 @@ tournament n = atPoints (trailVertices $ regPoly n 1) (map node [1..n]) # applyA
 arrowOpts = with & gaps .~ small
                  & headLength .~ local 0.15
 
-main = mainWith $ tournament 6
+main = mainWith $ tournament 5
