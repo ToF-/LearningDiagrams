@@ -14,4 +14,6 @@ tournament n = atPoints (trailVertices $ regPoly n 1) (map node [1..n])
 
 
 
-main = mainWith $ tournament 6 # connectOutside (1 :: Int) (2 :: Int)
+main = mainWith $ tournament 6 # connectOutside' (with & gaps .~ small
+                                                       & headLength .~ local 0.15)
+    (1 :: Int) (2 :: Int)
