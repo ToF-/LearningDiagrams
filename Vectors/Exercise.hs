@@ -17,4 +17,9 @@ pts = map mkPoint $ take 7 $ iterate (+ (pi/7)) 0
     where
     mkPoint x = p2 (5*sin x,5*cos x)
 
-main = mainWith (example1 === example2)
+example3 :: Diagram B
+-- example3 = mconcat . map fromOffsets $ [ [r *^ e (r @@ rad)] | r <- ]
+
+example3 = mconcat . map fromOffsets $ [ [(1 + fromIntegral (n `mod` 3)) *^ e ((tau/30 +(fromIntegral n) * (tau/30)) @@ rad)] | n <- [0..29]]
+
+main = mainWith (example1 === example2 === example3)
