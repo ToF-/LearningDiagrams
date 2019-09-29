@@ -22,4 +22,17 @@ example3 :: Diagram B
 
 example3 = mconcat . map fromOffsets $ [ [(1 + fromIntegral (n `mod` 3)) *^ e ((tau/30 +(fromIntegral n) * (tau/30)) @@ rad)] | n <- [0..29]]
 
-main = mainWith (example1 === example2 === example3)
+example4 :: Diagram B
+example4 = vTriangle unitX (unitX # rotateBy (1/8) ) 
+
+vTriangle :: V2 Double -> V2 Double -> Diagram B
+vTriangle a b = mconcat
+    [drawV a
+    ,drawV b
+    ,drawV c # translateX 1
+    ]
+    where c = negate (a ^+^ negate b) 
+
+drawV = fromOffsets . return
+
+main = mainWith (example1 === example2 === example3 === example4)
