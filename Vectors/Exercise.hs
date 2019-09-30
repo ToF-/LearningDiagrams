@@ -36,4 +36,21 @@ vTriangle a b = mconcat
 
 drawV = fromOffsets . return
 
-main = mainWith (example1 === example2 === example3 === example4)
+dash = dashingG [0.1,0.1] 0
+
+example5 :: Diagram B
+example5 = mconcat 
+    [fromOffsets [a] # lc blue
+    ,fromOffsets [b] # lc red
+    ,fromOffsets [a ^+^ b] # lc purple
+    ,fromOffsets [a] # lc blue # dash # translate b
+    ,fromOffsets [b] # lc red # dash # translate a
+    ]
+    where
+    a = unitX # scale 2 # rotateBy (1/20)
+    b = unitX # rotateBy (1/8) 
+    c = a ^+^ b
+    d = a ^* 2 
+    e = b # translate a
+
+main = mainWith (example5)
