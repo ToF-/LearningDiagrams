@@ -5,6 +5,7 @@
 import Diagrams.Prelude
 import Diagrams.Backend.SVG.CmdLine
 import Diagrams.TwoD.Vector
+import Data.List (partition)
 
 example1 :: Diagram B
 example1 = fromOffsets . map (\a -> 1 *^ e (a @@ deg)) $ take 10 $ cycle [45,-45]
@@ -53,4 +54,11 @@ example5 = mconcat
     d = a ^* 2 
     e = b # translate a
 
-main = mainWith (example5)
+example6 :: Diagram B
+example6 = atPoints interiorPts (repeat (circle 0.4) # fc yellow)
+       `atop` atPoints exteriorPts (repeat (circle 0.4) # fc purple)
+    where 
+    allPts = [p2 (i,j) | i <- [-15..15], j <- [-15..15]]
+    (interiorPts,exteriorPts) = partition (\p -> distance p origin <=15) allPts
+
+main = mainWith example6
