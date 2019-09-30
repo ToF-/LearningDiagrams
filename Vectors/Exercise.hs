@@ -55,7 +55,7 @@ example5 = mconcat
     e = b # translate a
 
 example6 :: Diagram B
-example6 = atPoints interiorPts (repeat (circle 0.4) # fc yellow)
+example6 = position (zip interiorPts (repeat (circle 0.4) # fc yellow))
        <> atPoints exteriorPts (repeat (circle 0.4) # fc purple)
     where 
     allPts = [p2 (i,j) | i <- [-15..15], j <- [-15..15]]
