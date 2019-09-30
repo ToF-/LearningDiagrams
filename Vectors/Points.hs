@@ -23,4 +23,15 @@ drawPts pts c = pts # map (\p -> (p, dot' c)) # position
 
 dot' c = circle 0.2 # fc c
 
-main = mainWith $ example3
+example4 :: Diagram B
+example4 = position $
+    [(p, circle 0.2 # fc (colourConvert c))
+    | a <- [0,0.1..1]
+    , let p = lerp a pt2 pt1
+    , let c = blend a blue green]
+
+pt1,pt2 :: P2 Double
+pt1 = origin
+pt2 = p2 (5,3)
+
+main = mainWith $ example4
