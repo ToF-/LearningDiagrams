@@ -56,7 +56,7 @@ example5 = mconcat
 
 example6 :: Diagram B
 example6 = atPoints interiorPts (repeat (circle 0.4) # fc yellow)
-       `atop` atPoints exteriorPts (repeat (circle 0.4) # fc purple)
+       <> atPoints exteriorPts (repeat (circle 0.4) # fc purple)
     where 
     allPts = [p2 (i,j) | i <- [-15..15], j <- [-15..15]]
     (interiorPts,exteriorPts) = partition (\p -> distance p origin <=15) allPts
