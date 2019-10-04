@@ -13,21 +13,23 @@ flowerOfLife = atPoints (fromOffsets pts) (take 5 arccs)
     pts :: [V2 Double]
     pts = [1 *^ e (a @@rad) | a <- [0,tau/5..tau]]
     arcs :: [Diagram B]
-    arcs= [arc (direction (1 *^ e (d @@ rad))) ((3*pi/5) @@ rad) 
-          | d <- [0,tau/5..]]
+    arcs= [arc  (direction (1 *^ e (d@@rad)))  ((3*pi/5)@@rad) # showOrigin # scale 1
+          | d <- [0,p..]]
+    p = tau/5
+    s = sqrt ((5-sqrt 5) / 2)
     arccs = zipWith (\a c -> a # lc c) arcs [black,purple,green,blue,red,orange]
 
 planetOfLife :: Diagram B
-planetOfLife = foldr copy flowerOfLife 
-    [(2, 0)
-    ,(2, tau/5)
+planetOfLife = foldr copy mempty $ take 2 
+    [(0, 0)
+    ,(1.6882, tau/10)
     ,(2, 2*(tau/5)) 
     ,(2, 3*(tau/5)) 
     ,(2, 4*(tau/5)) 
     ]
     where
     copy :: (Double,Double) -> Diagram B -> Diagram B
-    copy (l,a) d = d `atop` flowerOfLife # translate (l *^ e (a @@ rad)) # rotate (a@@rad)
+    copy (l,a) d = d `atop` flowerOfLife # translate (l *^ e (a @@ rad)) # rotate (a@@rad) # scale 1.2
 
 -- concat $ zipWith (\d pt -> d # translate pt) (repeat [flowerOfLife]) 
     -- [r2 (1,1), r2 (2,2), r2 (3,4)]
