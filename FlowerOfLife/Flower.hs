@@ -63,6 +63,5 @@ flowerOfIntelligence = atPoints (fromOffsets pts) (take 7 arccs)
     arcs= [arc (direction (1 *^ e (d @@ rad))) ((5*pi/7) @@ rad) 
           | d <- [0,tau/7..]]
     arccs = zipWith (\a c -> a # lc c) arcs [black,purple,green,blue,red,orange,brown]
+
 main = mainWith $ planetOfLife
-
-
