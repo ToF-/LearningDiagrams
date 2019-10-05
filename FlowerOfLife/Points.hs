@@ -8,12 +8,18 @@ import Diagrams.TwoD.Vector
 
 diagram :: Diagram B
 diagram = penta pts0 black
-   `atop` nextPoint (penta pts0 blue)
+   `atop` nextPoint (pts0!!0) a (penta pts0 purple)
+   `atop` nextPoint (pts0!!1) (2*a) (penta pts0 green)
+   `atop` nextPoint (pts0!!2) (3*a) (penta pts0 blue)
+   `atop` nextPoint (pts0!!3) (4*a) (penta pts0 red)
+   `atop` nextPoint (pts0!!4) (5*a) (penta pts0 orange)
     where
+    a = 1/5
     penta pts c = atPoints pts (map (\n ->  (text (show n) # fontSizeL 0.05 # fc white <> circle 0.05 # lw none # fc c)) [0..4]) # showOrigin
-    nextPoint = reflectAbout (d ^& d) (rotateBy (fromIntegral 1 / 5) xDir)
-    a = 0
-    d = 1 
+    nextPoint pt an = reflectAbout (x ^& y) (rotateBy an xDir)
+        where
+        (x,y) = unp2 pt
+
 
 pts0 :: [P2 Double]
 pts0 = trailVertices (pentagon 1)
