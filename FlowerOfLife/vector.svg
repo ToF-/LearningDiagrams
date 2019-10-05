@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
     "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" height="15300.0000" stroke-opacity="1" viewBox="0 0 600 15300" font-size="1" width="600.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" height="570.6339" stroke-opacity="1" viewBox="0 0 600 571" font-size="1" width="600.0000" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="rgb(0,0,0)" version="1.1">
   <defs>
   </defs>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,0)" stroke-width="12.119405926034496" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 300.0000,15000.0000 l 0.0000,-14893.9552 "/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(255,165,0)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-dashoffset="0.0" stroke-linecap="butt" stroke-miterlimit="10.0" stroke-dasharray="2.2917960675006306,2.2917960675006306">
+    <path d="M 300.0000,255.1952 v 315.4387 "/>
   </g>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(255,0,0)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-dashoffset="0.0" stroke-linecap="butt" stroke-miterlimit="10.0" stroke-dasharray="2.2917960675006306,2.2917960675006306">
+    <path d="M 300.0000,255.1952 l -300.0000,97.4759 "/>
   </g>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,0,255)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-dashoffset="0.0" stroke-linecap="butt" stroke-miterlimit="10.0" stroke-dasharray="2.2917960675006306,2.2917960675006306">
+    <path d="M 300.0000,255.1952 l -185.4102,-255.1952 "/>
   </g>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 300.0000,0.0000 l -40.3060,124.0492 l 40.3060,-21.1901 l 40.3060,21.1901 Z"/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(0,128,0)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-dashoffset="0.0" stroke-linecap="butt" stroke-miterlimit="10.0" stroke-dasharray="2.2917960675006306,2.2917960675006306">
+    <path d="M 300.0000,255.1952 l 185.4102,-255.1952 "/>
   </g>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 300.0000,102.8590 l -0.0000,3.1858 l -6.0597,-0.0000 l 6.0597,-3.1858 l -0.0000,3.1858 l 6.0597,0.0000 Z"/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(128,128,128)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 382.9180,510.3905 l 185.4102,-255.1952 l -185.4102,-255.1952 l -300.0000,97.4759 l 0.0000,315.4387 Z"/>
   </g>
-  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="1.0" stroke="rgb(0,0,0)" stroke-width="0.0" fill="rgb(255,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
-    <path d="M 600.0000,15000.0000 c 0.0000,-165.6854 -134.3146,-300.0000 -300.0000 -300.0000c -165.6854,-0.0000 -300.0000,134.3146 -300.0000 300.0000c -0.0000,165.6854 134.3146,300.0000 300.0000 300.0000c 165.6854,0.0000 300.0000,-134.3146 300.0000 -300.0000Z"/>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(128,0,128)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-dashoffset="0.0" stroke-linecap="butt" stroke-miterlimit="10.0" stroke-dasharray="2.2917960675006306,2.2917960675006306">
+    <path d="M 300.0000,255.1952 l 300.0000,97.4759 "/>
+  </g>
+  <g stroke-linejoin="miter" stroke-opacity="1.0" fill-opacity="0.0" stroke="rgb(128,128,128)" stroke-width="2.3405310367222403" fill="rgb(0,0,0)" stroke-linecap="butt" stroke-miterlimit="10.0">
+    <path d="M 414.5898,412.9146 l 70.8204,-217.9628 l -185.4102,-134.7084 l -185.4102,134.7084 l 70.8204,217.9628 Z"/>
   </g>
 </svg>
